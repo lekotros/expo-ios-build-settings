@@ -1,4 +1,4 @@
-# with-build-settings
+# [EXPO] iOS Build Settings
 
 An [Expo Config Plugin](https://docs.expo.dev/config-plugins/introduction/) that lets you set arbitrary iOS build settings directly from your `app.config.js` / `app.config.ts`.
 
