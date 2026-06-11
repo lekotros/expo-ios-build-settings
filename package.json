@@ -1,0 +1,37 @@
+{
+  "name": "@leko/expo-ios-build-settings",
+  "version": "1.0.0",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "prepare": "tsup"
+  },
+  "author": {
+    "email": "jesper.j.tornros@gmail.com",
+    "name": "Jesper Törnros",
+    "url": "https://13k0.com"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/bun": "latest",
+    "eslint": "^10.4.1",
+    "tsup": "^8.5.1"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^56.0.8"
+  }
+}
